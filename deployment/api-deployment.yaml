@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mvc
-        image: ahmedkhamessi/storemvcapp:v1.0
+        image: ahmedkhamessi/storemvcapp:v2.#{$Build.BuildId}#
         ports:
         - containerPort: 80
         resources:
